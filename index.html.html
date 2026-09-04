@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دشت زر | زعفران اصل قائنات</title>
+<meta name="description" content="دشت زر، عرضه‌کننده مستقیم زعفران سرگل و نگین درجه‌یک از مزارع قائنات؛ بدون واسطه، با آزمایش رنگ‌سنجی برای هر محموله و ارسال سریع به سراسر کشور.">
+<meta name="keywords" content="زعفران, زعفران قائنات, زعفران سرگل, زعفران نگین, خرید زعفران اصل">
+<meta property="og:type" content="website">
+<meta property="og:title" content="دشت زر | زعفران اصل قائنات">
+<meta property="og:description" content="زعفران سرگل و نگین درجه‌یک، مستقیم از کشاورزان خراسان جنوبی، با آزمایش رنگ‌سنجی برای هر محموله.">
+<meta property="og:locale" content="fa_IR">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=vazirmatn:400,500,600,700,800|lalezar:400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#241a12;
+    --ink-soft:#3c2c1c;
+    --crimson:#9c1d2e;
+    --crimson-dark:#711523;
+    --gold:#c89a3d;
+    --gold-light:#e8c874;
+    --parchment:#f5eedf;
+    --parchment-dark:#eadfc7;
+    --paper:#fbf7ee;
+    --sage:#69725a;
+    --line: rgba(36,26,18,.12);
+    --shadow: 0 20px 45px -25px rgba(36,26,18,.45);
+    --radius: 18px;
+    --maxw: 1180px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Vazirmatn', sans-serif;
+    background:var(--parchment);
+    color:var(--ink);
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%; display:block;}
+  a{color:inherit; text-decoration:none;}
+  ul{margin:0; padding:0; list-style:none;}
+  h1,h2,h3{margin:0; font-family:'Lalezar', 'Vazirmatn', sans-serif; font-weight:400; letter-spacing:.3px;}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:13px; font-weight:600; color:var(--crimson);
+    letter-spacing:.5px; margin-bottom:14px;
+  }
+  .eyebrow::before{content:""; width:22px; height:2px; background:var(--gold); display:inline-block;}
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:15px 30px; border-radius:999px; font-family:'Vazirmatn';
+    font-weight:700; font-size:15px; cursor:pointer; border:none;
+    transition:transform .25s ease, box-shadow .25s ease, background .25s ease;
+  }
+  .btn-primary{ background:var(--crimson); color:var(--paper); box-shadow:0 14px 30px -12px rgba(156,29,46,.65); }
+  .btn-primary:hover{ background:var(--crimson-dark); transform:translateY(-2px); }
+  .btn-ghost{ background:transparent; color:var(--ink); border:1.5px solid var(--line); }
+  .btn-ghost:hover{ border-color:var(--ink); }
+  section{ padding:96px 0; }
+  .section-head{ max-width:640px; margin-bottom:56px; }
+  .section-head h2{ font-size:clamp(28px,3.6vw,42px); line-height:1.35; color:var(--ink); }
+  .section-head p{ margin-top:14px; color:var(--ink-soft); font-size:16px; max-width:520px; }
+  .reveal{ opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
+  .reveal.in{ opacity:1; transform:none; }
+
+  /* ---------- Thread divider (signature element) ---------- */
+  .thread-divider{ width:100%; height:46px; margin:0 auto; }
+  .thread-divider svg{ width:100%; height:100%; display:block; }
+  .thread-path{
+    fill:none; stroke:var(--crimson); stroke-width:2.5; stroke-linecap:round;
+    stroke-dasharray:6, 500;
+    animation: draw-thread 3.5s ease-in-out infinite alternate;
+  }
+  @keyframes draw-thread{
+    from{ stroke-dashoffset:0; }
+    to{ stroke-dashoffset:-420; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .thread-path{ animation:none; stroke-dasharray:none; }
+  }
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(245,238,223,.9); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{ display:flex; align-items:center; justify-content:space-between; padding:18px 24px; max-width:var(--maxw); margin:0 auto; }
+  .logo{ display:flex; align-items:center; gap:10px; font-family:'Lalezar'; font-size:22px; color:var(--crimson); }
+  .logo span{ display:block; width:10px; height:10px; border-radius:50%; background:var(--gold); }
+  .nav-links{ display:flex; gap:34px; font-size:15px; font-weight:500; }
+  .nav-links a{ position:relative; padding:4px 0; }
+  .nav-links a::after{
+    content:""; position:absolute; right:0; bottom:-2px; width:0; height:2px; background:var(--crimson);
+    transition:width .25s ease;
+  }
+  .nav-links a:hover::after{ width:100%; }
+  .nav-actions{ display:flex; align-items:center; gap:14px; }
+  .burger{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:6px; }
+  .burger span{ width:22px; height:2px; background:var(--ink); border-radius:2px; }
+
+  /* ---------- Hero ---------- */
+  .hero{ padding:70px 0 60px; overflow:hidden; }
+  .hero-grid{ display:grid; grid-template-columns:1.05fr .95fr; gap:60px; align-items:center; }
+  .hero h1{ font-size:clamp(38px,5.4vw,64px); line-height:1.28; color:var(--ink); }
+  .hero h1 em{ font-style:normal; color:var(--crimson); }
+  .hero p.lead{ margin-top:22px; font-size:18px; color:var(--ink-soft); max-width:480px; }
+  .hero-cta{ display:flex; gap:16px; margin-top:34px; flex-wrap:wrap; }
+  .hero-stats{ display:flex; gap:34px; margin-top:48px; flex-wrap:wrap; }
+  .hero-stats div b{ font-family:'Lalezar'; font-size:26px; color:var(--crimson); display:block; }
+  .hero-stats div span{ font-size:13px; color:var(--ink-soft); }
+
+  .hero-visual{ position:relative; }
+  .hero-plate{
+    position:relative; border-radius:32px; overflow:hidden;
+    background:linear-gradient(150deg, var(--gold-light), var(--gold) 55%, var(--crimson) 130%);
+    aspect-ratio:1/1.05; box-shadow:var(--shadow);
+    display:flex; align-items:flex-end; padding:26px;
+  }
+  .hero-plate .badge{
+    background:var(--paper); border-radius:14px; padding:14px 18px;
+    display:flex; align-items:center; gap:12px; box-shadow:0 12px 26px -14px rgba(36,26,18,.5);
+  }
+  .hero-plate .badge b{ display:block; font-family:'Lalezar'; font-size:15px; color:var(--crimson); }
+  .hero-plate .badge span{ font-size:12px; color:var(--ink-soft); }
+  .thread-float{ position:absolute; inset:0; }
+  .thread-float svg{ width:100%; height:100%; }
+  .strand{ stroke:var(--crimson-dark); stroke-width:2.5; fill:none; stroke-linecap:round; opacity:.55; }
+  .strand.s1{ animation:sway 6s ease-in-out infinite; }
+  .strand.s2{ animation:sway 7.5s ease-in-out infinite reverse; }
+  .strand.s3{ animation:sway 5.2s ease-in-out infinite; }
+  @keyframes sway{
+    0%,100%{ transform:translateY(0) rotate(0deg); }
+    50%{ transform:translateY(-10px) rotate(2deg); }
+  }
+  @media (prefers-reduced-motion: reduce){ .strand{ animation:none; } }
+
+  /* ---------- Trust bar ---------- */
+  .trust{ background:var(--ink); color:var(--parchment); padding:26px 0; }
+  .trust .wrap{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:18px; font-size:14px; opacity:.9; }
+  .trust b{ color:var(--gold-light); font-weight:700; }
+
+  /* ---------- Feature grid ---------- */
+  .features{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+  .feature-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+    padding:30px 26px; transition:transform .3s ease, box-shadow .3s ease;
+  }
+  .feature-card:hover{ transform:translateY(-6px); box-shadow:var(--shadow); }
+  .feature-card .ic{
+    width:46px; height:46px; border-radius:12px; background:var(--parchment-dark);
+    display:flex; align-items:center; justify-content:center; margin-bottom:18px; color:var(--crimson);
+  }
+  .feature-card h3{ font-family:'Vazirmatn'; font-weight:700; font-size:18px; margin-bottom:10px; }
+  .feature-card p{ font-size:14.5px; color:var(--ink-soft); margin:0; }
+
+  /* ---------- Grades comparison table ---------- */
+  .grades{ background:var(--paper); }
+  table.compare{ width:100%; border-collapse:collapse; background:var(--paper); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); }
+  table.compare th, table.compare td{ padding:18px 20px; text-align:right; border-bottom:1px solid var(--line); font-size:14.5px; }
+  table.compare thead th{ background:var(--ink); color:var(--parchment); font-family:'Lalezar'; font-weight:400; font-size:16px; }
+  table.compare tbody tr:last-child td{ border-bottom:none; }
+  table.compare td:first-child, table.compare th:first-child{ color:var(--ink-soft); }
+  table.compare tbody tr.featured{ background:var(--parchment-dark); }
+  table.compare .tick{ color:var(--sage); font-weight:700; }
+  .table-scroll{ overflow-x:auto; }
+
+  /* ---------- Testimonials ---------- */
+  .testimonials{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+  .t-card{ background:var(--paper); border-radius:var(--radius); padding:28px; border:1px solid var(--line); }
+  .t-card .stars{ color:var(--gold); letter-spacing:2px; margin-bottom:14px; font-size:15px; }
+  .t-card p{ font-size:15px; color:var(--ink-soft); margin:0 0 20px; }
+  .t-who{ display:flex; align-items:center; gap:12px; }
+  .t-avatar{ width:40px; height:40px; border-radius:50%; background:var(--gold-light); display:flex; align-items:center; justify-content:center; font-family:'Lalezar'; color:var(--crimson-dark); }
+  .t-who b{ display:block; font-size:14px; }
+  .t-who span{ font-size:12.5px; color:var(--ink-soft); }
+
+  /* ---------- Pricing ---------- */
+  .pricing{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; align-items:stretch; }
+  .price-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+    padding:34px 28px; display:flex; flex-direction:column; position:relative;
+  }
+  .price-card.popular{ border:2px solid var(--crimson); box-shadow:var(--shadow); transform:translateY(-10px); }
+  .price-card .tag{
+    position:absolute; top:-14px; right:28px; background:var(--crimson); color:var(--paper);
+    font-size:12px; padding:6px 14px; border-radius:999px; font-weight:700;
+  }
+  .price-card h3{ font-family:'Vazirmatn'; font-weight:700; font-size:19px; }
+  .price-card .amount{ font-family:'Lalezar'; font-size:34px; color:var(--crimson); margin:16px 0 4px; }
+  .price-card .amount small{ font-family:'Vazirmatn'; font-size:13px; color:var(--ink-soft); font-weight:500; }
+  .price-card ul{ margin:22px 0 28px; display:flex; flex-direction:column; gap:12px; }
+  .price-card li{ font-size:14px; color:var(--ink-soft); display:flex; align-items:center; gap:10px; }
+  .price-card li::before{ content:"✓"; color:var(--sage); font-weight:700; }
+  .price-card .btn{ margin-top:auto; }
+
+  /* ---------- FAQ ---------- */
+  .faq{ max-width:760px; }
+  .faq-item{ border-bottom:1px solid var(--line); }
+  .faq-q{
+    display:flex; align-items:center; justify-content:space-between; gap:20px;
+    padding:22px 4px; cursor:pointer; background:none; border:none; width:100%;
+    text-align:right; font-family:'Vazirmatn'; font-weight:600; font-size:16px; color:var(--ink);
+  }
+  .faq-q .plus{ font-size:20px; color:var(--crimson); transition:transform .3s ease; flex:none; }
+  .faq-item.open .plus{ transform:rotate(45deg); }
+  .faq-a{ max-height:0; overflow:hidden; transition:max-height .35s ease; }
+  .faq-a p{ padding:0 4px 22px; margin:0; color:var(--ink-soft); font-size:14.5px; max-width:640px; }
+
+  /* ---------- CTA banner ---------- */
+  .cta-banner{
+    background:linear-gradient(135deg, var(--crimson), var(--crimson-dark));
+    border-radius:28px; padding:64px 48px; text-align:center; color:var(--paper);
+    position:relative; overflow:hidden;
+  }
+  .cta-banner h2{ font-size:clamp(26px,3.6vw,40px); }
+  .cta-banner p{ margin:16px auto 30px; max-width:480px; opacity:.92; font-size:15.5px; }
+  .cta-banner .btn-primary{ background:var(--gold); color:var(--ink); }
+  .cta-banner .btn-primary:hover{ background:var(--gold-light); }
+
+  /* ---------- Footer ---------- */
+  footer{ background:var(--ink); color:var(--parchment); padding:64px 0 28px; }
+  .footer-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:40px; }
+  .footer-grid h4{ font-family:'Vazirmatn'; font-size:15px; margin-bottom:18px; color:var(--gold-light); }
+  .footer-grid p{ font-size:14px; color:rgba(245,238,223,.75); max-width:280px; }
+  .footer-grid li{ margin-bottom:10px; font-size:14px; color:rgba(245,238,223,.8); }
+  .foot-bottom{
+    margin-top:50px; padding-top:22px; border-top:1px solid rgba(245,238,223,.15);
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:13px; color:rgba(245,238,223,.6);
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:960px){
+    .hero-grid{ grid-template-columns:1fr; }
+    .hero-visual{ order:-1; max-width:420px; margin:0 auto; }
+    .features, .testimonials, .pricing{ grid-template-columns:1fr 1fr; }
+    .footer-grid{ grid-template-columns:1fr 1fr; }
+    .price-card.popular{ transform:none; }
+  }
+  @media (max-width:680px){
+    .nav-links{
+      position:fixed; inset:64px 0 auto 0; background:var(--paper); flex-direction:column;
+      padding:20px 24px; border-bottom:1px solid var(--line); gap:18px;
+      transform:translateY(-130%); transition:transform .3s ease; z-index:40;
+    }
+    .nav-links.open{ transform:translateY(0); }
+    .burger{ display:flex; }
+    .nav-actions .btn-ghost{ display:none; }
+    section{ padding:64px 0; }
+    .features, .testimonials, .pricing, .footer-grid{ grid-template-columns:1fr; }
+    .hero-stats{ gap:26px; }
+    .cta-banner{ padding:48px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#" class="logo"><span></span> دشت زر</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">ویژگی‌ها</a>
+      <a href="#grades">درجه‌بندی</a>
+      <a href="#reviews">نظر مشتریان</a>
+      <a href="#pricing">قیمت‌ها</a>
+      <a href="#faq">پرسش‌ها</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#pricing" class="btn btn-ghost">مشاهده قیمت</a>
+      <a href="#pricing" class="btn btn-primary">خرید زعفران</a>
+      <button class="burger" id="burgerBtn" aria-label="باز کردن منو"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">برداشت پاییز ۱۴۰۴ · مزارع قائنات</div>
+      <h1>زعفرانی که <em>رنگ</em>، عطر و<br>اصالتش را حس می‌کنید</h1>
+      <p class="lead">دشت زر، زعفران سرگل و نگین درجه‌یک را مستقیم از کشاورزان خراسان جنوبی می‌خرد و در همان روز برداشت بسته‌بندی می‌کند؛ بدون واسطه، با آزمایش رنگ‌سنجی برای هر محموله.</p>
+      <div class="hero-cta">
+        <a href="#pricing" class="btn btn-primary">سفارش بدهید</a>
+        <a href="#grades" class="btn btn-ghost">مقایسه درجه‌ها</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>+۱۲هزار</b><span>مشتری راضی</span></div>
+        <div><b>۴.۹ / ۵</b><span>امتیاز از خریداران</span></div>
+        <div><b>۲۴ ساعت</b><span>ارسال سریع</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-plate">
+        <div class="thread-float">
+          <svg viewBox="0 0 300 300">
+            <path class="strand s1" d="M40 60 C 80 90, 60 140, 110 150 S 160 200, 130 240"></path>
+            <path class="strand s2" d="M220 40 C 190 80, 230 110, 200 150 S 240 210, 210 250"></path>
+            <path class="strand s3" d="M150 20 C 140 60, 180 90, 150 130 S 120 190, 160 220"></path>
+          </svg>
+        </div>
+        <div class="badge">
+          <span style="font-size:26px;">🌸</span>
+          <div><b>سرگل ممتاز</b><span>خالص، بدون افزودنی</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="thread-divider"><svg viewBox="0 0 1200 46" preserveAspectRatio="none"><path class="thread-path" d="M0 23 Q 100 5, 200 23 T 400 23 T 600 23 T 800 23 T 1000 23 T 1200 23"></path></svg></div>
+
+<div class="trust">
+  <div class="wrap">
+    <span>عضو <b>اتحادیه صادرکنندگان زعفران</b> ایران</span>
+    <span>دارای <b>مجوز بهداشت و استاندارد ملی</b></span>
+    <span><b>ضمانت بازگشت وجه</b> تا ۷ روز</span>
+    <span>ارسال به <b>سراسر کشور</b> و کشورهای همسایه</span>
+  </div>
+</div>
+
+<section id="features">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">چرا دشت زر</div>
+      <h2>از کشتزار تا فنجان چای شما</h2>
+      <p>هر پاکت زعفران دشت زر مسیر کوتاهی را طی می‌کند: برداشت، خشک‌کردن سنتی، آزمایشگاه و بسته‌بندی — همه در کمتر از سه روز.</p>
+    </div>
+    <div class="features">
+      <div class="feature-card reveal">
+        <div class="ic">✔</div>
+        <h3>آزمایش رنگ‌سنجی هر بچ</h3>
+        <p>هر محموله پیش از عرضه در آزمایشگاه مستقل، از نظر قدرت رنگ‌دهی (کروسین) بررسی و کد آزمایش روی بسته درج می‌شود.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="ic">🌿</div>
+        <h3>بدون واسطه، مستقیم از کشاورز</h3>
+        <p>خرید مستقیم از بیش از ۴۰ خانوار کشاورز در قائنات، یعنی زعفران تازه‌تر برای شما و سهم عادلانه‌تر برای تولیدکننده.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="ic">📦</div>
+        <h3>بسته‌بندی ضدنور و درزگیر</h3>
+        <p>قوطی‌های تیره و درزگیر با تاریخ برداشت مشخص، تا عطر و رنگ زعفران تا ۲۴ ماه حفظ شود.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="grades" class="grades">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">درجه‌بندی محصولات</div>
+      <h2>کدام زعفران برای شما مناسب‌تر است؟</h2>
+      <p>سه درجه اصلی زعفران دشت زر، بر اساس بخشی از کلاله که برداشت می‌شود و میزان رنگ‌دهی آن.</p>
+    </div>
+    <div class="table-scroll reveal">
+      <table class="compare">
+        <thead>
+          <tr>
+            <th>ویژگی</th>
+            <th>سرگل</th>
+            <th>نگین</th>
+            <th>پوشال معمولی</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="featured">
+            <td>بخش برداشت‌شده</td>
+            <td>فقط سر قرمز کلاله</td>
+            <td>کلاله کامل و متراکم</td>
+            <td>کلاله + بخشی از خامه زرد</td>
+          </tr>
+          <tr>
+            <td>قدرت رنگ‌دهی</td>
+            <td><span class="tick">بسیار بالا</span></td>
+            <td><span class="tick">بالا</span></td>
+            <td>متوسط</td>
+          </tr>
+          <tr>
+            <td>مناسب برای</td>
+            <td>رستوران و صادرات</td>
+            <td>مصرف خانگی روزانه</td>
+            <td>مصرف اقتصادی</td>
+          </tr>
+          <tr>
+            <td>بسته‌بندی پیشنهادی</td>
+            <td>۱ و ۳ گرمی</td>
+            <td>۱، ۳ و ۵ گرمی</td>
+            <td>۵ و ۱۰ گرمی</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="thread-divider"><svg viewBox="0 0 1200 46" preserveAspectRatio="none"><path class="thread-path" d="M0 23 Q 100 40, 200 23 T 400 23 T 600 23 T 800 23 T 1000 23 T 1200 23"></path></svg></div>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">نظر مشتریان</div>
+      <h2>حرف خریدارانی که تجربه کرده‌اند</h2>
+    </div>
+    <div class="testimonials">
+      <div class="t-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>«رنگ و عطرش قابل مقایسه با زعفرانی نیست که سال‌ها از بازار محلی می‌خریدم. بسته‌بندی هم خیلی شیک و مرتب بود.»</p>
+        <div class="t-who"><div class="t-avatar">م</div><div><b>مریم احمدی</b><span>تهران</span></div></div>
+      </div>
+      <div class="t-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>«برای کافه‌مان به‌صورت عمده خرید کردیم؛ ثبات کیفیت بین بسته‌های مختلف واقعاً قابل توجه بود.»</p>
+        <div class="t-who"><div class="t-avatar">ر</div><div><b>رضا کریمی</b><span>اصفهان</span></div></div>
+      </div>
+      <div class="t-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>«ارسال سریع بود و کد آزمایش رنگ‌سنجی روی بسته باعث شد با اطمینان بیشتری خرید کنم.»</p>
+        <div class="t-who"><div class="t-avatar">س</div><div><b>سارا محمدی</b><span>شیراز</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="grades">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">بسته‌های خرید</div>
+      <h2>بسته مناسب خودتان را انتخاب کنید</h2>
+      <p>قیمت‌ها نمونه هستند و می‌توانید آن‌ها را متناسب با نرخ روز و محصولات خود ویرایش کنید.</p>
+    </div>
+    <div class="pricing">
+      <div class="price-card reveal">
+        <h3>پوشال معمولی</h3>
+        <div class="amount">۴۸۰,۰۰۰ <small>تومان / ۵ گرم</small></div>
+        <ul>
+          <li>مناسب مصرف روزانه</li>
+          <li>بسته‌بندی قوطی فلزی</li>
+          <li>ارسال رایگان بالای ۲ بسته</li>
+        </ul>
+        <a href="#" class="btn btn-ghost">افزودن به سبد</a>
+      </div>
+      <div class="price-card popular reveal">
+        <span class="tag">پرفروش‌ترین</span>
+        <h3>نگین ممتاز</h3>
+        <div class="amount">۹۹۰,۰۰۰ <small>تومان / ۵ گرم</small></div>
+        <ul>
+          <li>کلاله کامل و متراکم</li>
+          <li>آزمایش رنگ‌سنجی رایگان</li>
+          <li>بسته‌بندی هدیه رایگان</li>
+          <li>ارسال طی ۲۴ ساعت</li>
+        </ul>
+        <a href="#" class="btn btn-primary">افزودن به سبد</a>
+      </div>
+      <div class="price-card reveal">
+        <h3>سرگل صادراتی</h3>
+        <div class="amount">۱,۸۵۰,۰۰۰ <small>تومان / ۵ گرم</small></div>
+        <ul>
+          <li>بالاترین قدرت رنگ‌دهی</li>
+          <li>مناسب رستوران و صادرات</li>
+          <li>گواهی آزمایشگاهی همراه بسته</li>
+        </ul>
+        <a href="#" class="btn btn-ghost">افزودن به سبد</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">پرسش‌های متداول</div>
+      <h2>هر آنچه قبل از خرید باید بدانید</h2>
+    </div>
+    <div class="faq reveal">
+      <div class="faq-item open">
+        <button class="faq-q" aria-expanded="true" aria-controls="faq-a-1">چطور اصالت زعفران را تضمین می‌کنید؟ <span class="plus">+</span></button>
+        <div class="faq-a" id="faq-a-1" role="region"><p>هر بچ تولیدی پیش از عرضه در آزمایشگاه مستقل آزمایش رنگ‌سنجی می‌شود و کد نتیجه روی بسته درج می‌گردد تا هر مشتری بتواند آن را استعلام کند.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-2">هزینه و زمان ارسال چقدر است؟ <span class="plus">+</span></button>
+        <div class="faq-a" id="faq-a-2" role="region"><p>ارسال به سراسر کشور از طریق پست پیشتاز انجام می‌شود و معمولاً بین ۱ تا ۳ روز کاری به دست مشتری می‌رسد. برای خرید بالای دو بسته، ارسال رایگان است.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-3">آیا امکان بازگشت کالا وجود دارد؟ <span class="plus">+</span></button>
+        <div class="faq-a" id="faq-a-3" role="region"><p>در صورت عدم رضایت، تا ۷ روز پس از دریافت می‌توانید کالا را (در صورت باز نشدن بسته) بازگردانید و وجه پرداختی بازگردانده می‌شود.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-4">برای خرید عمده تخفیف دارید؟ <span class="plus">+</span></button>
+        <div class="faq-a" id="faq-a-4" role="region"><p>بله، برای خریدهای عمده (کافه، رستوران، فروشگاه) تخفیف پلکانی در نظر گرفته شده است؛ کافی است از بخش تماس با ما درخواست خود را ثبت کنید.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <h2>همین امروز اصل‌ترین زعفران را تجربه کنید</h2>
+      <p>سفارش شما همان روز بسته‌بندی و ارسال می‌شود؛ با ضمانت بازگشت وجه تا ۷ روز.</p>
+      <a href="#pricing" class="btn btn-primary">مشاهده و خرید بسته‌ها</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <a href="#" class="logo" style="color:var(--gold-light); margin-bottom:14px; display:flex;"><span></span> دشت زر</a>
+      <p>فروشگاه زعفران دشت زر، عرضه‌کننده مستقیم زعفران سرگل و نگین از مزارع قائنات به سراسر کشور.</p>
+    </div>
+    <div>
+      <h4>محصولات</h4>
+      <ul>
+        <li><a href="#grades">زعفران سرگل</a></li>
+        <li><a href="#grades">زعفران نگین</a></li>
+        <li><a href="#grades">زعفران پوشال</a></li>
+        <li><a href="#pricing">بسته‌های هدیه</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>شرکت</h4>
+      <ul>
+        <li><a href="#features">درباره ما</a></li>
+        <li><a href="#reviews">نظر مشتریان</a></li>
+        <li><a href="#faq">پرسش‌های متداول</a></li>
+        <li><a href="#">همکاری با ما</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>ارتباط با ما</h4>
+      <ul>
+        <li>تلفن: ۰۲۱-۸۸۷۷۶۶۵۵</li>
+        <li>ایمیل: info@dashtezar.ir</li>
+        <li>خراسان جنوبی، قائنات</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© <span id="jalaliYear">۱۴۰۴</span> دشت زر. تمامی حقوق محفوظ است.</span>
+    <span>طراحی‌شده به‌عنوان قالب نمونه برای فروشگاه‌های راست‌چین</span>
+  </div>
+</footer>
+
+<script>
+  // Auto-update footer copyright to the current Jalali (Persian) year
+  try{
+    const jy = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { year: 'numeric' }).format(new Date());
+    const yEl = document.getElementById('jalaliYear');
+    if(yEl) yEl.textContent = jy;
+  }catch(e){ /* keep static fallback year if Intl/Persian calendar isn't supported */ }
+
+  // Mobile menu toggle
+  const burger = document.getElementById('burgerBtn');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    if(item.classList.contains('open')){ a.style.maxHeight = a.scrollHeight + 'px'; }
+    q.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(other => {
+        other.classList.remove('open');
+        other.querySelector('.faq-a').style.maxHeight = null;
+        other.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+        q.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
